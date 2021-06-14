@@ -1,0 +1,40 @@
+.about {
+    padding: 5rem 0;
+
+}
+
+.container {
+    max-width: 128rem;
+    margin: 0 auto;
+    padding: 0 3rem;
+}
+
+.aboutIntro {
+
+}
+
+.introDescription {
+
+}
+
+.introDescription p:not(:last-child) {
+    margin-bottom: 2rem;
+}
+
+.introDescription p span {
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: bold;
+    color: #262626;
+    letter-spacing: 1px;
+}
+
+.ItCourse {
+    display: inline-block;
+    color: inherit;
+}
+
+.ItCourse:hover {
+    transition: all .7s ease-in;
+    letter-spacing: 1px;
+    color: #262626;
+}

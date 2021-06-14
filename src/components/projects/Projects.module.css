@@ -1,0 +1,21 @@
+.projects {
+    padding: 5rem 0;
+}
+
+.container {
+    max-width: 128rem;
+    margin: 0 auto;
+    padding: 0 3rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50rem, 1fr));
+    gap: 2.5rem;
+}
+
+@media screen and (max-width: 768px){
+    .grid {
+        grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    }
+}
